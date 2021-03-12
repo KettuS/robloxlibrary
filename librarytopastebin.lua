@@ -301,6 +301,7 @@ do
 			pages = {}
 		}, library)
 	end
+end
 	
 	function page.new(library, title, icon)
 		local button = utility:Create("TextButton", {
